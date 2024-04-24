@@ -1,41 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Digital Clock</title>
 </head>
+
 <body>
-    <div class="digital-clock">
-        <div class="time flex">
-            <div class="hour">
-                <span id="hour">00</span>
-            </div>
-
-            <div class="dots">
-                <span id="dots">:</span>
-            </div>
-            
-            <div class="minute">
-                <span id="minute">00</span>
-            </div>
-
-            <div class="dots">
-                <span id="dots">:</span>
-            </div>
-            
-            <div class="second">
-                <span id="second">00</span>
-            </div>
-        </div>
-        <div class="Date">
-            <span id="month"></span>
+    <div class="digital-clock container flex">
+        <div class="dates">
             <span id="day"></span>
-            <span id="year"></span>
+            <span id="date"></span>
+            <span id="month"></span>
+        </div>
+        <div class="time">
+            <span id="hour">00</span>
+            <span id="dots">:</span>
+            <span id="minute">00</span>
         </div>
     </div>
-    
+
     <script src="./app.js"></script>
 </body>
+
 </html>
